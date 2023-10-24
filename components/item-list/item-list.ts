@@ -14,19 +14,23 @@ class ItemList extends HTMLElement {
     });
 
     const buttonEl = this.shadow.querySelector(".delete-button")!;
-    const liEl = this.shadow.querySelector(".item");
+    const liEl = this.shadow.querySelector(".item")!;
     const lineEl = this.shadow.querySelector(".line");
     const parrafoEl = this.shadow.querySelector(".parrafo")!;
     const checkboxEl = this.shadow.querySelector(".checkbox")!;
     const list = state.getState().list;
 
-    /*     checkboxEl.addEventListener("change", function () {
+    checkboxEl?.addEventListener("click", (e) => {
+      const target = e.target as any;
+    });
+
+    checkboxEl.addEventListener("change", function () {
       for (const item of list) {
         if (item.checked) {
           console.log(item);
         }
       }
-    }); */
+    });
 
     /*     buttonEl.addEventListener("click", function (e) {
       const index = list.indexOf(parrafoEl.textContent!.toString());

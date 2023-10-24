@@ -657,7 +657,14 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
 const state = {
     data: {
-        list: []
+        list: [
+            {
+                id: 1,
+                content: "mer",
+                check: false,
+                delete: false
+            }
+        ]
     },
     listeners: [],
     getState () {
@@ -727,6 +734,10 @@ class ItemList extends HTMLElement {
         const parrafoEl = this.shadow.querySelector(".parrafo");
         const checkboxEl = this.shadow.querySelector(".checkbox");
         const list = (0, _state.state).getState().list;
+        checkboxEl?.addEventListener("click", (e)=>{
+            const target = e.target;
+            console.log("hola");
+        });
     /*     checkboxEl.addEventListener("change", function () {
       for (const item of list) {
         if (item.checked) {

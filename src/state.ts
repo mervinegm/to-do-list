@@ -1,6 +1,6 @@
 const state = {
   data: {
-    list: [],
+    list: [{ id: 1, content: "mer", check: false, delete: false }],
   },
   listeners: [],
   getState() {
