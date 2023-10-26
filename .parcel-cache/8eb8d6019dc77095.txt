@@ -1,7 +1,7 @@
-4493
+4497
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\MP.js133391955466210000 0
 80C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\base-x133391957410727414 1
-73C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\package.json133396254377423476 0
+73C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\package.json133428219644662091 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\lightningcss\node\index.js.flow133391955447650000 0
 110C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\_\_class_name_tdz_error133391958132601450 1
 109C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\alt-af.js133391955466210000 0
@@ -31,10 +31,10 @@
 110C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\csso\lib\replace\atrule\keyframes.js133378056168210000 0
 71C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components133391961500806115 1
 91C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\svgo\lib\style.js133378055779390000 0
-64C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\src133391964276021315 1
+64C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\src133428149678680767 1
 124C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\intersectionobserver.js133391955466210000 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\lmdb\dependencies\lz4\lib\lz4.c133378055845280000 0
-65C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist133414401371402801 1
+65C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist133428219818730257 1
 101C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\svgo\plugins\removeAttrs.js133378055779390000 0
 131C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\src\_class_static_private_field_spec_set.mjs133388640884440000 0
 82C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-tree133391957422636618 1
@@ -67,8 +67,12 @@
 104C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-what\lib\es\types.d.ts.map133378057675490000 0
 104C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\htmlnano\lib\modules\custom.js133378055765470000 0
 112C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\type-fest\source\conditional-pick.d.ts133378057471690000 0
+89C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\chalk\readme.md133378055384720000 0
+105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\source-map\dist\wasm.js133378055677270000 0
+97C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\parent-module\readme.md133378057685640000 0
+76C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\src\prueba.html133428204073206029 0
 116C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-select\lib\pseudo-selectors\filters.js133378056162970000 0
-73C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\src\state.ts133414399290581778 0
+73C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\src\state.ts133428195373188441 0
 122C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\unhandledrejection.js133391955466210000 0
 110C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\core\test\AssetGraph.test.js133378055300840000 0
 81C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\is-json133391957447786449 1
@@ -434,10 +438,6 @@
 91C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\json5\lib\util.js133378055703730000 0
 117C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\dispatchevent.js133391955466210000 0
 93C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\regenerator-runtime133391957753682412 1
-105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\dotenv-expand\dotenv-expand.png133378055703300000 0
-107C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\postcss-value-parser\lib\index.js133378055832810000 0
-114C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133378055845280000 0
-122C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\esm\_is_native_reflect_construct.js133388640884440000 0
 86C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\resolve-from133391957753342730 1
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\PL.js133391955466210000 0
 98C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\semver\internal\debug.js133378055707760000 0
@@ -946,7 +946,7 @@
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\HN.js133391955466210000 0
 103C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\browsers.js133391955466210000 0
 106C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\svgo\plugins\removeDimensions.js133378055779390000 0
-94C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components\add-items\add-items.ts133414399252824782 0
+94C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components\add-items\add-items.ts133428195334477831 0
 98C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\timsort\build\timsort.js133378056156050000 0
 100C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\ordered-binary\.nyc_output133391957904927419 1
 108C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\colr.js133391955466210000 0
@@ -1028,7 +1028,6 @@
 106C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\svgo\plugins\convertTransform.js133378055779390000 0
 111C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\source-map\dist\source-map.min.js.map133378057683890000 0
 124C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\workers\test\integration\workerfarm\ipc.js133378055679500000 0
-97C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\js-yaml\lib\type\map.js133378057665230000 0
 115C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\user-timing.js133391955466210000 0
 103C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\profiler\src\index.js133378055668380000 0
 102C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\svgo\plugins\inlineStyles.js133378055779390000 0
@@ -1425,6 +1424,10 @@
 107C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\postcss-value-parser\package.json133378055832810000 0
 128C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\lmdb\node_modules\node-addon-api\napi-inl.deprecated.h133378057501520000 0
 104C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\postcss-value-parser\README.md133378055832810000 0
+105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\dotenv-expand\dotenv-expand.png133378055703300000 0
+107C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\postcss-value-parser\lib\index.js133378055832810000 0
+114C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133378055845280000 0
+122C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\esm\_is_native_reflect_construct.js133388640884440000 0
 107C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\postcss-value-parser\lib\parse.js133378055832810000 0
 108C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\markdown-ansi\package.json133378055742050000 0
 106C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\packager-js\src\index.js133378055521490000 0
@@ -1485,9 +1488,6 @@
 124C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-display-contents.js133391955466210000 0
 95C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\parent-module\license133378057685640000 0
 114C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-tree\lib\syntax\node\SelectorList.js133378056165990000 0
-89C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\chalk\readme.md133378055384720000 0
-105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\source-map\dist\wasm.js133378055677270000 0
-97C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\parent-module\readme.md133378057685640000 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\GL.js133391955466210000 0
 84C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\parcel\lib133391957953576577 1
 92C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\htmlnano\README.md133378055765470000 0
@@ -2031,6 +2031,7 @@
 101C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-tree\lib\lexer\index.js133378056165990000 0
 113C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\css-tree\lib\utils\createCustomError.js133378056165990000 0
 97C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\js-yaml\lib\type\int.js133378057665230000 0
+97C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\js-yaml\lib\type\map.js133378057665230000 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\CF.js133391955466210000 0
 98C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\js-yaml\lib\type\omap.js133378057665230000 0
 117C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-gradients.js133391955466210000 0
@@ -2866,8 +2867,6 @@
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\TJ.js133391955466210000 0
 100C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\transformer-js\lib133391957847657766 1
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\TZ.js133391955466210000 0
-109C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\compressor-raw\package.json133378055393210000 0
-116C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-autofill.js133391955466210000 0
 110C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\dialog.js133391955466210000 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\UA.js133391955466210000 0
 105C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\regions\UG.js133391955466210000 0
@@ -2918,6 +2917,8 @@
 121C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\createimagebitmap.js133391955466210000 0
 126C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\transformer-js\parcel-swc.linux-x64-gnu.node133378055586500000 0
 117C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-animation.js133391955466210000 0
+109C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\compressor-raw\package.json133378055393210000 0
+116C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-autofill.js133391955466210000 0
 109C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\_\_non_iterable_spread133391958133260839 1
 126C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-background-offsets.js133391955466210000 0
 127C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\css-backgroundblendmode.js133391955466210000 0
@@ -3050,7 +3051,7 @@
 83C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\core133391957668279413 1
 110C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\esm\_to_property_key.js133388640884440000 0
 92C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\core\bindings133391957876436488 1
-87C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.799891e4.js.map133414401371372825 0
+87C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.799891e4.js.map133428219818710288 0
 112C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\datalist.js133391955466210000 0
 126C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\caniuse-lite\data\features\declarative-shadow-dom.js133391955466210000 0
 103C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@parcel\transformer-babel\src133391957846518782 1
@@ -3402,7 +3403,7 @@
 120C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\@swc\helpers\_\_class_private_field_loose_base133391958132741315 1
 102C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\abortcontroller-polyfill\src133391957770998270 1
 120C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\abortcontroller-polyfill\src\abortableFetch.js133378055680540000 0
-83C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.799891e4.js133414401371212968 0
+83C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.799891e4.js133428219818590376 0
 121C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\abortcontroller-polyfill\src\abortcontroller.js133378055680540000 0
 114C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\abortcontroller-polyfill\src\ponyfill.js133378055680540000 0
 136C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\abortcontroller-polyfill\dist\abortcontroller-polyfill-only.js133378055680540000 0
@@ -4489,6 +4490,9 @@
 87C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\.bin\svgo.cmd133391958234231957 0
 101C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\node_modules\.bin\update-browserslist-db133391958234311890 0
 94C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.799891e4.js.map.8196.d133398200447822670 0
-76C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.html133411971214310609 0
+76C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\index.html133426570325250960 0
+84C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\prueba.38e7b151.js133428219647369372 0
+88C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\prueba.38e7b151.js.map133428219647589153 0
+77C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\dist\prueba.html133428219647339391 0
 81C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components\add-items133391961659753792 1
-94C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components\item-list\item-list.ts133414401364103700 0
+94C:\Users\Personal\APX\Nivel 2\M09-ARQUITECTURA-WEB\m09c09HW1\components\item-list\item-list.ts133428219420582679 0

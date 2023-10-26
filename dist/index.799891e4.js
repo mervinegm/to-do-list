@@ -597,7 +597,7 @@ class AddItem extends HTMLElement {
             const newItem = {
                 id: uniqueId,
                 content: f.text.value,
-                check: false,
+                completed: false,
                 delete: false
             };
             (0, _state.state).addItem(newItem);
@@ -731,23 +731,28 @@ class ItemList extends HTMLElement {
         const buttonEl = this.shadow.querySelector(".delete-button");
         const liEl = this.shadow.querySelector(".item");
         const lineEl = this.shadow.querySelector(".line");
-        const parrafoEl = this.shadow.querySelector(".parrafo");
+        const parrafoEl = this.shadow.querySelectorAll(".parrafo");
         const checkboxEl = this.shadow.querySelector(".checkbox");
-        const list = (0, _state.state).getState().list;
-        checkboxEl?.addEventListener("click", (e)=>{
-            const target = e.target;
-            console.log("hola");
+        const tasks = (0, _state.state).getState().list;
+        tasks.forEach((item, index)=>{
+            checkboxEl.checked = item.completed;
+            checkboxEl.addEventListener("change", ()=>{
+                item.completed = checkboxEl.checked;
+                this.render();
+                updateTaskTextStyles();
+            });
+            function updateTaskTextStyles() {
+                parrafoEl.forEach((taskText, index)=>{
+                    if (tasks[index].completed) taskText.style.textDecoration = "line-through";
+                    else taskText.style.textDecoration = "none";
+                });
+            }
+            buttonEl.addEventListener("click", ()=>{
+                tasks.splice(index, 1);
+                this.render();
+            });
         });
-    /*     checkboxEl.addEventListener("change", function () {
-      for (const item of list) {
-        if (item.checked) {
-          console.log(item);
-        }
-      }
-    }); */ /*     buttonEl.addEventListener("click", function (e) {
-      const index = list.indexOf(parrafoEl.textContent!.toString());
-      state.deleteItem(index);
-    }); */ }
+    }
     render() {
         const list = (0, _state.state).getState().list;
         this.shadow.innerHTML = `
@@ -800,6 +805,11 @@ class ItemList extends HTMLElement {
 
     p{
       display:inline;
+    }
+
+    .parrafo.checked{
+      text-decoration:line-through;
+      text-decoration-color: black;
     }
 
     .item{

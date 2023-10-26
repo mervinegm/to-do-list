@@ -18,7 +18,7 @@ const state = {
   addItem(item: {
     id: number;
     content: string;
-    check: boolean;
+    completed: boolean;
     delete: boolean;
   }) {
     const currentState = this.getState();

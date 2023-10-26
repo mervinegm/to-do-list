@@ -16,26 +16,35 @@ class ItemList extends HTMLElement {
     const buttonEl = this.shadow.querySelector(".delete-button")!;
     const liEl = this.shadow.querySelector(".item")!;
     const lineEl = this.shadow.querySelector(".line");
-    const parrafoEl = this.shadow.querySelector(".parrafo")!;
-    const checkboxEl = this.shadow.querySelector(".checkbox")!;
-    const list = state.getState().list;
+    const parrafoEl = this.shadow.querySelectorAll(".parrafo")!;
+    const checkboxEl: HTMLInputElement =
+      this.shadow.querySelector(".checkbox")!;
+    const tasks = state.getState().list;
 
-    checkboxEl?.addEventListener("click", (e) => {
-      const target = e.target as any;
-    });
+    tasks.forEach((item, index) => {
+      checkboxEl.checked = item.completed;
 
-    checkboxEl.addEventListener("change", function () {
-      for (const item of list) {
-        if (item.checked) {
-          console.log(item);
-        }
+      checkboxEl.addEventListener("change", () => {
+        item.completed = checkboxEl.checked;
+        this.render();
+        updateTaskTextStyles();
+      });
+
+      function updateTaskTextStyles() {
+        parrafoEl.forEach((taskText: any, index) => {
+          if (tasks[index].completed) {
+            taskText.style.textDecoration = "line-through";
+          } else {
+            taskText.style.textDecoration = "none";
+          }
+        });
       }
-    });
 
-    /*     buttonEl.addEventListener("click", function (e) {
-      const index = list.indexOf(parrafoEl.textContent!.toString());
-      state.deleteItem(index);
-    }); */
+      buttonEl.addEventListener("click", () => {
+        tasks.splice(index, 1);
+        this.render();
+      });
+    });
   }
 
   render() {
@@ -93,6 +102,11 @@ class ItemList extends HTMLElement {
 
     p{
       display:inline;
+    }
+
+    .parrafo.checked{
+      text-decoration:line-through;
+      text-decoration-color: black;
     }
 
     .item{

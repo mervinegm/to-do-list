@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <h1>Lista de Tareas</h1>
+
+    <!-- Formulario para agregar una nueva tarea -->
+    <form id="todo-form">
+        <input type="text" id="task" placeholder="Agregar una nueva tarea">
+        <button type="submit">Agregar</button>
+    </form>
+
+    <!-- Lista de tareas -->
+    <ul id="task-list">
+    </ul>
+
+    <button id="clear-completed">Borrar tareas completadas</button>
+
+    <script>document.addEventListener("DOMContentLoaded", function() {
+    const formEl = document.getElementById("todo-form");
+    const ulEL = document.getElementById("task-list");
+    const clearAllButtonEl = document.getElementById("clear-completed");
+    // Array para almacenar las tareas
+    let tasks = [];
+    // Agregar una nueva tarea
+    formEl.addEventListener("submit", function(e) {
+        e.preventDefault();
+        const taskInput = document.getElementById("task");
+        const taskText = taskInput.value.trim();
+        if (taskText !== "") {
+            tasks.push({
+                text: taskText,
+                completed: false
+            });
+            renderTasks();
+            taskInput.value = "";
+        }
+    });
+    // Renderizar las tareas en la lista
+    function renderTasks() {
+        ulEL.innerHTML = "";
+        tasks.forEach(function(item, index) {
+            const li = document.createElement("li");
+            const checkbox = document.createElement("input");
+            const taskText = document.createElement("span");
+            const deleteButton = document.createElement("button");
+            checkbox.type = "checkbox";
+            checkbox.checked = item.completed;
+            taskText.innerText = item.text;
+            deleteButton.innerText = "Borrar";
+            checkbox.addEventListener("change", function() {
+                item.completed = checkbox.checked;
+                renderTasks();
+                updateTaskTextStyles();
+            });
+            function updateTaskTextStyles() {
+                const taskTextElements = document.querySelectorAll("#task-list li span");
+                taskTextElements.forEach(function(taskText, index) {
+                    if (tasks[index].completed) taskText.style.textDecoration = "line-through";
+                    else taskText.style.textDecoration = "none";
+                });
+            }
+            deleteButton.addEventListener("click", function() {
+                tasks.splice(index, 1);
+                renderTasks();
+            });
+            li.appendChild(checkbox);
+            li.appendChild(taskText);
+            li.appendChild(deleteButton);
+            ulEL.appendChild(li);
+        });
+    }
+    // Borrar tareas completadas
+    clearAllButtonEl.addEventListener("click", function() {
+        tasks = tasks.filter((item)=>!item.completed);
+        renderTasks();
+    });
+    renderTasks();
+});
+
+</script>
+<script src="/prueba.38e7b151.js"></script></body>
+</html>

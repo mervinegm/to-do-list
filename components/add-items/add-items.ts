@@ -19,7 +19,7 @@ class AddItem extends HTMLElement {
       const newItem = {
         id: uniqueId,
         content: f.text.value,
-        check: false,
+        completed: false,
         delete: false,
       };
       state.addItem(newItem);
